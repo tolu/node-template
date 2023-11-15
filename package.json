@@ -1,0 +1,21 @@
+{
+  "name": "template",
+  "version": "1.0.0",
+  "description": "Template for modern Node (20+) project to be used with `npx -y degit tolu/node-template`",
+  "license": "MIT",
+  "author": "Tobias Lundin",
+  "type": "module",
+  "main": "main.js",
+  "scripts": {
+    "start": "node main.js",
+    "test": "node --test --no-warnings",
+    "typecheck": "tsc"
+  },
+  "devDependencies": {
+    "@types/node": "^20.9.0",
+    "typescript": "^5.2.2"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}

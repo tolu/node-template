@@ -1,0 +1,24 @@
+{
+  "compilerOptions": {
+    /* Language and Environment - Node 20 */
+    /* https://github.com/microsoft/TypeScript/wiki/Node-Target-Mapping#node-20 */
+    "target": "ES2022",
+    "lib": ["ES2023"],
+
+    /* Modules */
+    "module": "NodeNext",
+    "moduleResolution": "NodeNext",
+    "resolveJsonModule": true /* Allow .json imports, node require "assert { type: "json" }" after filename */,
+
+    /* JavaScript Support */
+    "allowJs": true,
+    "checkJs": true,
+
+    /* Emit */
+    "noEmit": true /* Disable emitting files from a compilation. */,
+
+    /* Type Checking */
+    "strict": true /* Enable all strict type-checking options. */
+  },
+  "exclude": ["node_modules"]
+}
